@@ -2,8 +2,12 @@ from sys import exit
 
 
 
-def ip_check() -> list  :
+def ip_notation() : # notation : CIDR or Subnet mask
+    ...
 
+
+def ip_check() -> list  :
+    
     while True :
         ip = input("Ip address format x.x.x.x : ").split(".")
         if len(ip) != 4 :
@@ -13,6 +17,6 @@ def ip_check() -> list  :
                 if int(numbers) in range(0,256) :
                     return(list(ip))
                 
-    
+
 
 print(ip_check())
