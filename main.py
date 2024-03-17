@@ -1,9 +1,8 @@
 import os
 import sys
 import netaddr
-import ipaddress
 import socket
-
+import ipaddress as ipaddr
 
 
 def main() -> None:
