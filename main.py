@@ -31,4 +31,4 @@ def binary_operations() -> list :
                 
 
 
-print(ip_check())
+#print(ip_check())
